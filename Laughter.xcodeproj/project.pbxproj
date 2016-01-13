@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7D3055F29721F912159AF11D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB5C11DD85E5A1DBDE1921 /* libPods.a */; };
+		F1155C011C465CF1007BBEE9 /* LZOptionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1155C001C465CF1007BBEE9 /* LZOptionalViewController.m */; };
 		F14702111C4285CE0015CE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F14702101C4285CE0015CE6E /* main.m */; };
 		F14702141C4285CE0015CE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14702131C4285CE0015CE6E /* AppDelegate.m */; };
-		F14702171C4285CE0015CE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14702161C4285CE0015CE6E /* ViewController.m */; };
+		F14702171C4285CE0015CE6E /* LZTextJokeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14702161C4285CE0015CE6E /* LZTextJokeListViewController.m */; };
 		F147021C1C4285CE0015CE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F147021B1C4285CE0015CE6E /* Assets.xcassets */; };
 		F147021F1C4285CE0015CE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F147021D1C4285CE0015CE6E /* LaunchScreen.storyboard */; };
 		F147022E1C428FC30015CE6E /* LZTextJokeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F147022D1C428FC30015CE6E /* LZTextJokeRequest.m */; };
@@ -21,12 +22,14 @@
 /* Begin PBXFileReference section */
 		8410C64A94531DF7513A94DE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D755F3C19B64F9E08FA648F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F1155BFF1C465CF1007BBEE9 /* LZOptionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOptionalViewController.h; sourceTree = "<group>"; };
+		F1155C001C465CF1007BBEE9 /* LZOptionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOptionalViewController.m; sourceTree = "<group>"; };
 		F147020C1C4285CE0015CE6E /* Laughter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laughter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F14702101C4285CE0015CE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F14702121C4285CE0015CE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F14702131C4285CE0015CE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F14702151C4285CE0015CE6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F14702161C4285CE0015CE6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F14702151C4285CE0015CE6E /* LZTextJokeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTextJokeListViewController.h; sourceTree = "<group>"; };
+		F14702161C4285CE0015CE6E /* LZTextJokeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTextJokeListViewController.m; sourceTree = "<group>"; };
 		F147021B1C4285CE0015CE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F147021E1C4285CE0015CE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F14702201C4285CE0015CE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,8 +96,8 @@
 			children = (
 				F14702121C4285CE0015CE6E /* AppDelegate.h */,
 				F14702131C4285CE0015CE6E /* AppDelegate.m */,
-				F14702151C4285CE0015CE6E /* ViewController.h */,
-				F14702161C4285CE0015CE6E /* ViewController.m */,
+				F14702151C4285CE0015CE6E /* LZTextJokeListViewController.h */,
+				F14702161C4285CE0015CE6E /* LZTextJokeListViewController.m */,
 				F147021B1C4285CE0015CE6E /* Assets.xcassets */,
 				F147021D1C4285CE0015CE6E /* LaunchScreen.storyboard */,
 				F14702201C4285CE0015CE6E /* Info.plist */,
@@ -107,6 +110,8 @@
 				F14702321C44A8B50015CE6E /* LZCommonDefines.h */,
 				F14702331C44EFA80015CE6E /* LZJokeTextItem.h */,
 				F14702341C44EFA80015CE6E /* LZJokeTextItem.m */,
+				F1155BFF1C465CF1007BBEE9 /* LZOptionalViewController.h */,
+				F1155C001C465CF1007BBEE9 /* LZOptionalViewController.m */,
 			);
 			path = Laughter;
 			sourceTree = "<group>";
@@ -224,9 +229,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F14702351C44EFA80015CE6E /* LZJokeTextItem.m in Sources */,
-				F14702171C4285CE0015CE6E /* ViewController.m in Sources */,
+				F14702171C4285CE0015CE6E /* LZTextJokeListViewController.m in Sources */,
 				F14702141C4285CE0015CE6E /* AppDelegate.m in Sources */,
 				F14702311C429CF50015CE6E /* LZJokeListTableViewCell.m in Sources */,
+				F1155C011C465CF1007BBEE9 /* LZOptionalViewController.m in Sources */,
 				F14702111C4285CE0015CE6E /* main.m in Sources */,
 				F147022E1C428FC30015CE6E /* LZTextJokeRequest.m in Sources */,
 			);

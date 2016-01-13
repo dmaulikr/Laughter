@@ -6,20 +6,20 @@
 //  Copyright © 2016年 lizhao. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LZTextJokeListViewController.h"
 #import "LZTextJokeRequest.h"
 #import "LZJokeListTableViewCell.h"
 #import "Masonry.h"
 #import "MJRefresh.h"
 #import "LZCommonDefines.h"
-@interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
+@interface LZTextJokeListViewController ()<UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) LZTextJokeRequest *textJokeReq;
 @property (nonatomic, strong) NSMutableArray *jokes;
 
 @end
 
-@implementation ViewController
+@implementation LZTextJokeListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
