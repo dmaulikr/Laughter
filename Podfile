@@ -1,0 +1,7 @@
+platform :ios, '7.0'
+pod 'YTKNetwork'
+pod 'SDWebImage'
+#pod 'YYKit'
+pod 'MJRefresh'
+pod 'Masonry'
+pod 'MJExtension'

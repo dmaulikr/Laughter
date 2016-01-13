@@ -1,0 +1,55 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Masonry (0.6.4)
+  - MJExtension (3.0.9)
+  - MJRefresh (3.1.0)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.7.0.35):
+    - RegexKitLite (= 4.0)
+    - WebP
+  - WebP (2.0.0)
+  - YTKNetwork (0.5.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MJExtension
+  - MJRefresh
+  - SDWebImage
+  - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 847920c08a727b14dc3dc74f06ab9dadf77a63c5
+  AFNetworking: 3219ca5bb80891fdd51a4daa1f4b2251a57c5c81
+  Masonry: 0de6cf428111b5d31cc189c7a1b93638d7f7795e
+  MJExtension: b1dfaa772755dd471245c5bc55f9aab7a42c03a4
+  MJRefresh: 8bcd08c96987d3a9844eb431963d4510d77b8852
+  RegexKitLite: 320861de33c6897474ccfcf5f6973283c92fce33
+  SDWebImage: 6e52ed2a912b00c21c9c01238dfd45d2e09cfba4
+  WebP: 8536946a217e6b95cb49f7856a305ffcba58fa33
+  YTKNetwork: 59d1f671c0bf850a531fea91684c3d9a252b3f84
+
+COCOAPODS: 0.35.0
