@@ -86,6 +86,10 @@
     return UITableViewAutomaticDimension;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 - (void)configureCell:(LZJokeListTableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *dict = self.jokes[indexPath.row];
     LZJokeTextItem *item = [LZJokeTextItem mj_objectWithKeyValues:dict];
